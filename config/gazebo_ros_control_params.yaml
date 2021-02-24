@@ -1,0 +1,12 @@
+# parameters for Gazebo ROS control plugin
+gazebo_ros_control:
+  pid_gains:
+    jright_shoulder_rotz: {p: 100.0, i: 0.01, d: 10.0, i_clamp: 1}
+    jright_shoulder_roty: {p: 100.0, i: 0.01, d: 10.0, i_clamp: 1}
+    jright_shoulder_rotx: {p: 100.0, i: 0.01, d: 10.0, i_clamp: 1}
+    jright_forearm_rotz: {p: 100.0, i: 0.01, d: 10.0, i_clamp: 1}
+    jright_forearm_roty: {p: 100.0, i: 0.01, d: 10.0, i_clamp: 1}
+    jright_wrist_rotz: {p: 100.0, i: 0.01, d: 10.0, i_clamp: 1}
+    jright_wrist_rotx: {p: 100.0, i: 0.01, d: 10.0, i_clamp: 1}
+    jright_grip_rhand: {p: 100.0, i: 0.01, d: 10.0, i_clamp: 1}
+    
